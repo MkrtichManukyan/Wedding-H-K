@@ -63,10 +63,12 @@
 }
 .fixed-background {
     background-image: url("../img/photo_2023-12-07_20-14-08.jpg");
-    /* background-attachment: fixed; */
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--textColor);
 }
 .lsit-block ul{
