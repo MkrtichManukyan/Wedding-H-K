@@ -68,9 +68,6 @@
     flex-direction: column;
     color: var(--textColor); 
 }
-.lsit-block{
-    margin-top: 5%;
-}
 .lsit-block ul li{
     margin-bottom: 50px;
 }
