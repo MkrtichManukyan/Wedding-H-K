@@ -59,6 +59,8 @@
     margin-bottom: 10px;
 }
 .fixed-background {
+    width: 100%;
+    height: auto;
     background: url('../img/photo_2023-12-07_20-14-08.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
