@@ -24,8 +24,9 @@
       </div>
     </div>
   </section>
-    <section class="fixed-background">
+    <section>
       <div class="lsit-block">
+        <div class="fixed-background"></div>
         <ul>
           <li>
             <div class="heading-text"><p>Օրվա ծրագիր</p></div>
@@ -79,19 +80,6 @@
         </ul>
       </div>
     </section>
-    
-    
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      var fixedBackground = $('.fixed-background');
-
-      $(window).on('scroll', function() {
-        var scroll = $(this).scrollTop();
-        fixedBackground.css('transform', 'translate3d(0, ' + -scroll + 'px, 0)');
-      });
-    });
-  </script>
   
   <script src="./js/script.js"></script>
 </body>
