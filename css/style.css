@@ -62,11 +62,7 @@
     margin-bottom: 10px;
 }
 .fixed-background {
-    background: url("../img/photo_2023-12-07_20-14-08.jpg") no-repeat fixed center; 
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #9b3f0e;
+    background: url("../img/photo_2023-12-07_20-14-08.jpg") center top/cover no-repeat fixed;
     color: var(--textColor);
 }
 .lsit-block ul{
