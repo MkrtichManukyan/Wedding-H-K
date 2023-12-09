@@ -66,9 +66,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: var(--textColor);
 }
 .lsit-block ul{
@@ -113,4 +110,12 @@
 }
 .lsit-block-text p span, .lsit-text span{
     font-weight: bold;
+}
+/* Additional styles for iOS devices */
+.ios-fixed-background {
+    background-attachment: scroll; /* Change background-attachment for iOS */
+}
+.fixed-background {
+    position: relative;
+    overflow: hidden;
 }

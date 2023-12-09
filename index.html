@@ -79,7 +79,16 @@
         </ul>
       </div>
     </section>
-
+    <script>
+      // Check if the user is using an iOS device
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  
+      // Add a class to the fixed-background element if it's an iOS device
+      if (isIOS) {
+          document.querySelector('.fixed-background').classList.add('ios-fixed-background');
+      }
+  </script>
+  
   <script src="./js/script.js"></script>
 </body>
 </html>
