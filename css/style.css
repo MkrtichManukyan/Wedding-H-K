@@ -62,7 +62,11 @@
     margin-bottom: 10px;
 }
 .fixed-background {
-    background: url("../img/photo_2023-12-07_20-14-08.jpg") center top/cover no-repeat fixed;
+    background-image: url("../img/photo_2023-12-07_20-14-08.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
     color: var(--textColor);
 }
 .lsit-block ul{
