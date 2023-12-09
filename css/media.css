@@ -1,7 +1,4 @@
 @media (max-width: 950px) {
-    .container{
-        padding-top: 60%;
-    }
     .lsit-block-text{
         flex-direction: column;
     }
@@ -18,9 +15,6 @@
     }
 }
 @media (max-width: 550px) {
-    .container{
-        padding-top: 80%;
-    }
     .lsit-block-text p{
         flex-direction: column;
     }
@@ -30,9 +24,6 @@
     }
 }
 @media (max-width: 320px) {
-    .container{
-        padding-top: 90%;
-    }
     .countdown-timer-class{
         flex-direction: column;
     }
