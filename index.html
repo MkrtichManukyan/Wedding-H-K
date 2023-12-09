@@ -79,14 +79,18 @@
         </ul>
       </div>
     </section>
-    <script>
-      // Check if the user is using an iOS device
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  
-      // Add a class to the fixed-background element if it's an iOS device
-      if (isIOS) {
-          document.querySelector('.fixed-background').classList.add('ios-fixed-background');
-      }
+    
+    
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var fixedBackground = $('.fixed-background');
+
+      $(window).on('scroll', function() {
+        var scroll = $(this).scrollTop();
+        fixedBackground.css('transform', 'translate3d(0, ' + -scroll + 'px, 0)');
+      });
+    });
   </script>
   
   <script src="./js/script.js"></script>
