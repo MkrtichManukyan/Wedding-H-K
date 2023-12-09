@@ -40,6 +40,9 @@
     color: var(--textColor);
     font-size: 20px;
 }
+.font-size{
+    font-size: 25px;
+}
 .countdown-timer-class{
     display: flex;
     justify-content: center;
@@ -59,7 +62,6 @@
     margin-bottom: 10px;
 }
 .fixed-background {
-    width: 100%;
     background: url('../img/photo_2023-12-07_20-14-08.jpg') top no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,13 +74,13 @@
 .lsit-block ul li{
     padding-top: 50px;
 }
-.lsit-block-text p{
+.lsit-block-text p, .lsit-text{
     color: var(--textColor);
     font-size: 20px;
     display: flex;
     align-items: center;
 }
-.lsit-block-text p img{
+.lsit-block-text p img, .lsit-text img{
     max-width: 70px;
     width: 100%;
     margin-right: 10px;
@@ -90,9 +92,8 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-.location-date{
+.location{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 .location-date img{
@@ -106,19 +107,6 @@
     height: 300px;
     padding: 15px 0px;
 }
-
-
-
-
-.loader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+.lsit-block-text p span, .lsit-text span{
+    font-weight: bold;
 }
