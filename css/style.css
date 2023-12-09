@@ -28,6 +28,7 @@
     width: 100%;
     height: 100vh;
     background: url('/img/photo_2023-12-05_23-21-39.jpg') top no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -58,8 +59,8 @@
     margin-bottom: 10px;
 }
 .fixed-background {
-    height: 100vh;
-    background: url('/img/photo_2023-12-07_20-14-08.jpg') no-repeat;
+    background: url('../img/photo_2023-12-07_20-14-08.jpg') no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: var(--textColor); 
